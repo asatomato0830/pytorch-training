@@ -9,6 +9,6 @@ if __name__ == "__main__":
     account.withdraw(900)
     print(account.get_balance())
 
-    account.set_interest_rate(0.05)
+    account.set_interest_rate(0.1)
     account.apply_interest()
     print(account.get_balance())
