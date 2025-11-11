@@ -9,7 +9,7 @@ data = np.array([
 
 # 1.Numpy配列をTesorに変換
 tensor = torch.from_numpy(data)
-print("Tesor:", tensor)
+print(tensor.shape)
 
 # 2.2科目、3クラス、各クラス５人に並び替える
 
